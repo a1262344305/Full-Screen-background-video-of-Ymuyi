@@ -1,0 +1,10 @@
+/*
+Project Name: Full Screen background video of Ymuyi  全屏视频背景
+Demo URI: http://ymuyi.com/
+Author: Ymuyi
+Author URI: http://ymuyi.com/
+Version:0.6
+Tags: 全屏,自适应,首页,背景视频
+*/
+
+使用时需将<video>标签内的预览图url和视频地址修改成你想要的。
