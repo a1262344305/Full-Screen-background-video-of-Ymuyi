@@ -1,10 +1,10 @@
 /*
-Project Name: Full Screen background video of Ymuyi  全屏视频背景
+Project Name: Full Screen background video of Ymuyi  鍏ㄥ睆瑙嗛鑳屾櫙
 Demo URI: http://ymuyi.com/
 Author: Ymuyi
 Author URI: http://ymuyi.com/
 Version:0.6
-Tags: 全屏,自适应,首页,背景视频
+Tags: 鍏ㄥ睆,鑷�傚簲,棣栭〉,鑳屾櫙瑙嗛
 */
 
 @charset "utf-8";
@@ -94,6 +94,22 @@ video {
 	background:rgb(85,195,222);
 	}
 
+a,
+a:before,
+a:after {
+    -webkit-transition-property: background color;
+    -webkit-transition-duration: 0.2s;
+    -webkit-transition-timing-function: ease;
+    -moz-transition-property: background color;
+    -moz-transition-duration: 0.2s;
+    -moz-transition-timing-function: ease;
+    -o-transition-property: background color;
+    -o-transition-duration: 0.2s;
+    -o-transition-timing-function: ease;
+    transition-property: background color;
+    transition-duration: 0.2s;
+    transition-timing-function: ease;
+}
 
 @media screen and (max-width:340px){
 	#header h1{font-size:68px;}
